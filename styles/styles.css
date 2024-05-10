@@ -5,6 +5,9 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Alegreya'; font-size: 16px;
+}
 
 
 nav {
@@ -22,12 +25,15 @@ h1 {
     color: black;
 }
 
-img {
-    width: 150px;
+main img {
+    width: 300px;
     height: auto;
     border: 1px solid lavender;
     padding: 2px;
     box-shadow: 0 0 30px pink;
+    float: right;
+    margin: 0 0 1rem 1rem;
+
 }
 
 p {
@@ -45,12 +51,19 @@ p {
 aside {
     width: 20em;
     text-align: center;
+    position: relative;
 }
-main img {
-    float: right;
+
+aside img{
+    width: 200px;
+    height: auto;
+    margin-bottom: 1rem;
 }
+
 aside h2 {
     position: absolute;
-    top: 47px;
-    left:150;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: pink;
 }
