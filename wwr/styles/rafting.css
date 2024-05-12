@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,100&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+    color: var(--primary-color);
+}
+
+:root {
+    --primary-color: #063562;
+    --secondary-color: #79B791;
+    --accent1-color: #275C30;
+    --accent2-color: #96031A;
+    --heading-font: 'Raleway', serif;
+    --paragraph-font: 'Raleway', serif;
+    --nav-background-color: #063562;
+    --nav-link-color: #79B791;
+    --nav-hover-link-color: #275C30;
+    --nav-hover-background-color: #96031A;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer .sociallinks a {
+    text-decoration: none;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+
+.hero h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.7); /* White box with 70% opacity */
+    padding: 20px;
+    box-sizing: border-box;
+    z-index: 1;
+    font-family: 'Raleway', sans-serif; /* Use Raleway font */
+    color: #063562; /* Change color as needed */
+}
+
+.hero h1 {
+    top: 50%;
+    left: 50%;
+    font-family: var(--heading-font);
+}
+
+.hero article {
+    top: 70%;
+    width: 80%;
+}
+
+.hero article img {
+    float: right;
+    margin-left: 20px;
+}
+section img[src="images/adventure3.jpg"] {
+    max-width: 100%;
+    height: auto; 
+}
