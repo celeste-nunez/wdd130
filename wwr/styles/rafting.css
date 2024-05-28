@@ -133,9 +133,7 @@ height: auto;
   grid-row: 1;
   text-align: center;
   color: rgb(231, 253, 255);
-  display: flex;
-  align-items: center;
-  justify-content: center; 
+  display: flex; justify-content: center; align-items: center;
 }
 
 .text-right {
@@ -143,9 +141,7 @@ height: auto;
   grid-row: 1;
   text-align: center;
   color: rgb(231, 253, 255);
-  display: flex;
-  align-items: center; 
-  justify-content: center; 
+  display: flex; justify-content: center; align-items: center;
 }
 
 .history-image {
