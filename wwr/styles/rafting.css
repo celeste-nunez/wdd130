@@ -50,13 +50,13 @@ body {
 }
 
 .nav-box nav {
-  display: flex; /* Make nav items flex to align horizontally */
+  display: flex; 
   text-decoration: none;
 }
 
 .nav-box a {
-  padding: 10px; /* Add padding for space around nav items */
-  text-decoration: none; /* Remove default underline */
+  padding: 10px;
+  text-decoration: none; 
 }
 
 /* Add border between nav items */
@@ -92,12 +92,12 @@ height: auto;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: rgba(255, 255, 255, 0.7); /* White box with 70% opacity */
+  background-color: rgba(255, 255, 255, 0.7); 
   padding: 20px;
   box-sizing: border-box;
   z-index: 1;
-  font-family: 'Raleway', sans-serif; /* Use Raleway font */
-  color: black /* Change color as needed */
+  font-family: 'Raleway', sans-serif; 
+  color: black;
 }
 
 .hero p {

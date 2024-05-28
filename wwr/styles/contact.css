@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,100&display=swap');
+
+body {
+ font-family: 'Raleway', sans-serif;
+ color: var(--primary-color);
+ background-color: hsl(0, 0%, 100%);
+}
+
+:root {
+  --primary-color: #063562;
+  --secondary-color: #79B791;
+  --accent1-color: #275C30;
+  --accent2-color: #96031A;
+  --heading-font: 'Raleway', serif;
+  --paragraph-font: 'Raleway', serif;
+  --nav-background-color: #063562;
+  --nav-link-color: #79B791;
+  --nav-hover-link-color: #275C30;
+  --nav-hover-background-color: #96031A;
+  --nav-link-color: #ffffff;
+}
+
+.header-home {
+  background-color: #275C30;
+}
