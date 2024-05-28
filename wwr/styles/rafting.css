@@ -3,7 +3,7 @@
 body {
  font-family: 'Raleway', sans-serif;
  color: var(--primary-color);
- background-color: #fff;
+ background-color: hsl(0, 0%, 100%);
 }
 
 :root {
@@ -41,6 +41,8 @@ body {
   width: 100%; /* Make the image fill the container */
 }
 
+.nav-box nav a { color: #fff; }
+
 /* Style for navigation */
 .nav-box {
   border: 1px solid #ccc; /* Border for the nav box */
@@ -49,7 +51,7 @@ body {
 
 .nav-box nav {
   display: flex; /* Make nav items flex to align horizontally */
-  color: white;
+  text-decoration: none;
 }
 
 .nav-box a {
@@ -95,7 +97,7 @@ height: auto;
   box-sizing: border-box;
   z-index: 1;
   font-family: 'Raleway', sans-serif; /* Use Raleway font */
-  color: #063562; /* Change color as needed */
+  color: black /* Change color as needed */
 }
 
 .hero p {
