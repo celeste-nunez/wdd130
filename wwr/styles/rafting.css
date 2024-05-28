@@ -114,7 +114,7 @@ height: auto;
 .history-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  /* margin-top: 37.5rem; */
+  margin-top: 0.5rem;
   background-color: #275C30;
   align-items: start;
 }
