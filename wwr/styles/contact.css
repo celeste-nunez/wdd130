@@ -93,10 +93,15 @@ body {
 
   /* ------------------------------- */
 
+  .main {
+    display: grid;
+  }
+
   .contact-info {
     display: grid;
     grid-template-columns: 250px 1fr;
     font-weight: bold;
+    margin-bottom: 20px;
   }
 
   .contact {
@@ -113,13 +118,14 @@ body {
     height: 100%;
     margin: 0;
     padding: 0;
+    margin-bottom: 20px;
 }
 
 .employees-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 2;
+  grid-template-columns: 2fr 1fr 1fr;
   gap: 20; 
+  margin-bottom: 100px;
 }
 
 .employees {
@@ -129,7 +135,6 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  margin-top: 10px;
 }
 
 .jerry {
@@ -161,14 +166,5 @@ body {
   text-align: center;
 }
 
-.form-container {
-  display: grid;
-  grid-template-columns: 1;
-  grid-template-rows: 1;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-
-}
-
+.
 
