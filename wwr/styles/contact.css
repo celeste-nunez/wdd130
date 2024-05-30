@@ -95,7 +95,7 @@ body {
 
   .contact-info {
     display: grid;
-    grid-template-columns: 250px, 1fr 1fr 1fr;
+    grid-template-columns: 250px 1fr;
     font-weight: bold;
   }
 
@@ -107,20 +107,72 @@ body {
     color: #063562;
   }
 
-.employees {
-    grid-row: 2;
-    grid-column: 1/3;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+  .map {
+    grid-column: 2/4;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
-.map {
-    grid-column: 2;
-    width: 500px;
-    height: 200px;
+.employees-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 2;
+  gap: 20; 
 }
+
+.employees {
+  grid-row: 1;
+  grid-column: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.jerry {
+  grid-row: 1;
+  grid-column: 1;
+  width: 500px;
+}
+
+.jerry img {
+  width: 5000px;
+}
+
+.bandit {
+  grid-row: 1;
+  grid-column: 2;
+  width: 500px;
+}
+
+.bandit img {
+  width: 400px;
+  height: auto;
+}
+
+.simpson {
+  grid-row: 1;
+  grid-column: 3;
+  width: 500px;
+}
+
+.simpson img {
+  width: 400px;
+  height: auto;
+}
+
+.employees div {
+  text-align: center;
+}
+
+.employees img {
+  width: 100px; /* Adjust as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
 
 
 
