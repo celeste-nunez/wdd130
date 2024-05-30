@@ -167,8 +167,11 @@ body {
 }
 
 .form-container {
-  display: grid;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
 }
 
+
+.form-group {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
