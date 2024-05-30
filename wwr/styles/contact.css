@@ -138,19 +138,10 @@ body {
   width: 500px;
 }
 
-.jerry img {
-  width: 5000px;
-}
-
 .bandit {
   grid-row: 1;
   grid-column: 2;
   width: 500px;
-}
-
-.bandit img {
-  width: 400px;
-  height: auto;
 }
 
 .simpson {
@@ -159,20 +150,25 @@ body {
   width: 500px;
 }
 
+.jerry img
+.bandit img
 .simpson img {
-  width: 400px;
-  height: auto;
+  width: auto;
+  height: 500px;
 }
 
 .employees div {
   text-align: center;
 }
 
-.employees img {
-  width: 100px; /* Adjust as needed */
-  height: auto; /* Maintain aspect ratio */
+.form-container {
+  display: grid;
+  grid-template-columns: 1;
+  grid-template-rows: 1;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
 }
-
-
 
 
