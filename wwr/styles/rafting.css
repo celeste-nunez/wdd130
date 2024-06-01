@@ -246,12 +246,19 @@ footer p {
 
 .booking a {
   grid-column: 1/-1;
-  margin: 0;
+  margin-bottom: 10px;
+  margin-top: 15px;
   text-align: center;
   padding: 0;
   text-decoration: none;
-  color: #275C30;
+  color: #fff;
   font-size: 20px;
+  font-weight: 200;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #275C30;
+  border-radius: 5px
+
 }
 
 .booking img {
@@ -336,7 +343,7 @@ footer p {
   margin-top: 10px;
   display: inline-block;
   padding: 10px 20px;
-  background-color: var(--accent2-color); 
+  background-color: #063562; 
   color: #fff; 
   border: none;
   border-radius: 5px; 
@@ -344,4 +351,40 @@ footer p {
   cursor: pointer; 
   transition: background-color 0.3s ease, transform 0.3s ease;
   text-decoration: none; 
+}
+
+.newsletter {
+    max-width: 400px;
+    margin: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.form-group input[type="text"],
+.form-group input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+.form-group input[type="submit"] {
+    background-color: #063562;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.form-group input[type="submit"]:hover {
+    background-color: #0056b3;
 }
