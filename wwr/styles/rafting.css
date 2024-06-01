@@ -275,9 +275,18 @@ footer p {
   position: relative;
 }
 
-.trip2-text {
-  color: red;
-  background-color: yellow;
+.trip2 p {
+  position: absolute;
+  left: 0;
+  top: 10%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: black;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #fff;
+  padding: 0 10px;
+  font-size: 20px;
 }
 
 .trip3 {
@@ -289,8 +298,17 @@ footer p {
 }
 
 .trip3 p {
-  color: red;
-  background-color: yellow;
+  position: absolute;
+  left: 0;
+  top: 10%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: black;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #fff;
+  padding: 0 10px;
+  font-size: 20px;
 }
 
 .book-now {
