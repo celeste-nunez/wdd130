@@ -355,17 +355,13 @@ footer p {
 
 .newsletter {
     max-width: 400px;
-    margin: 10px;
+    margin: 10px auto;
     margin-bottom: 20px;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
-.form {
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
-}
+
 .form-group {
     margin-bottom: 20px;
 }
@@ -392,4 +388,172 @@ footer p {
 }
 .form-group input[type="submit"]:hover {
     background-color: #0056b3;
+}
+
+/* ----------------------- */
+/* trips page */
+
+.trips {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 500px 1fr;
+  align-items: center;
+  justify-items: center;
+  position: relative;
+}
+
+.trips > .trips-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+  grid-column: 1 / -1;
+  padding: 0;
+  margin: 0;
+
+  border: 2px solid var(--primary-color); /* Adjust the border color */
+  border-radius: 15px; /* Rounded corners */
+  padding: 20px; /* Padding inside the box */
+  background-color: #f9f9f9; /* Optional: background color for the box */
+  text-align: center; /* Center the text */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.trips > .trips-title h1 {
+  margin: 0;
+  text-align: center;
+  padding: 10px 0px;
+}
+
+.trips > .trips-title h1:first-child {
+  margin-bottom: 5px;
+}
+
+.trips > .trips-title h1:nth-child(2) {
+  margin-top: 5px; 
+}
+
+.questions-box {
+  position: absolute;
+  top: 17%; /* Position it below the trips-title */
+  left: 50%; /* Center it horizontally */
+  transform: translateX(-50%);
+  background-color: #f2f2f2; /* Background color for the box */
+  padding: 10px 20px; /* Adjust padding as needed */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Drop shadow */
+}
+
+.questions a {
+  text-decoration: none;
+  color: #063562;
+}
+
+.questions a:hover {
+  text-decoration: underline;
+}
+
+.scenic {
+  grid-row: 2;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.scenic img {
+  width: 400px;
+  height: auto;
+  border-radius: 10px;
+  border: 5px solid  #063562;
+}
+
+.scenic-text {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
+  background-color: #f9f9f9;
+}
+
+.escape {
+  grid-row: 3;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.escape img {
+  width: 400px;
+  height: auto;
+  border-radius: 10px;
+  border: 5px solid  #063562;
+}
+
+.escape-text {
+  margin-top: 10px;
+  padding: 10px; /* Add padding inside the text box */
+  border: 1px solid #ccc; /* Add a border around the text */
+  border-radius: 5px; /* Optional: add rounded corners */
+  background-color: #f9f9f9;
+}
+
+.rapids {
+  grid-row: 4;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.rapids img {
+  width: 400px;
+  height: auto;
+  border-radius: 10px;
+  border: 5px solid  #063562;
+}
+
+.rapids-text {
+  margin-top: 10px;
+  padding: 10px; /* Add padding inside the text box */
+  border: 1px solid #ccc; /* Add a border around the text */
+  border-radius: 5px; /* Optional: add rounded corners */
+  background-color: #f9f9f9;
+}
+
+.trip-table {
+  width: 1000px;
+  border-collapse: collapse;
+  margin: 20px auto;
+  justify-content: center;
+  align-self: center;
+}
+
+.trip-table th, .trip-table td {
+  border: 1px solid #063562;
+  padding: 10px;
+  text-align: left;
+}
+
+.trip-table th {
+  background-color: #063562;
+  color: #ffffff;
+}
+
+.trip-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.trip-table tr:hover {
+  background-color: #ddd;
+}
+
+.trip-table td {
+  background-color: #ffffff;
+}
+
+.trips-title h1 {
+  text-align: center;
+  color: #063562;
+  margin-bottom: 10px;
+}
+
+.trips-title .sub-title {
+  font-size: 1.2em;
+  color: #275C30;
 }
