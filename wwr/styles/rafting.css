@@ -196,3 +196,103 @@ footer p {
   -fit: contain; 
 }
 
+/* ------------------------ */
+
+.home-page {
+  position: relative;
+}
+
+.home-page img{
+  width: 100%;
+  height: 800px;
+  z-index: -1;
+}
+
+.home-page h1 {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  text-align: center;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 36px; 
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.booking {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.booking h1 {
+  grid-column: 2;
+  position: relative;
+  text-align: center;
+  display: flex;
+}
+
+.booking img {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  border: 5px solid  #275C30;
+}
+
+.trip1 {
+  grid-column: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.trip1-text {
+  position: absolute;
+  left: 0;
+  top: 10%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: black;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #fff;
+  padding: 0 10px;
+  font-size: 20px;
+}
+
+.trip2 {
+  grid-column: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.trip2-text {
+  color: red;
+  background-color: yellow;
+}
+
+.trip3 {
+  grid-column: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.trip3 p {
+  color: red;
+  background-color: yellow;
+}
+
+.book-now {
+  margin-top: 10px;
+}
