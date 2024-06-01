@@ -236,7 +236,22 @@ footer p {
   grid-column: 1 / -1;
   margin: 0;
   text-align: center;
-  padding: 20px;
+  padding: 0px;
+}
+
+.booking h2 a:hover {
+  color: var(--secondary-color); /* Example: Change color on hover */
+  text-decoration: underline; /* Underline the link on hover */
+}
+
+.booking a {
+  grid-column: 1/-1;
+  margin: 0;
+  text-align: center;
+  padding: 0;
+  text-decoration: none;
+  color: #275C30;
+  font-size: 20px;
 }
 
 .booking img {
@@ -319,4 +334,14 @@ footer p {
 
 .book-now {
   margin-top: 10px;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: var(--accent2-color); 
+  color: #fff; 
+  border: none;
+  border-radius: 5px; 
+  font-size: 16px; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  text-decoration: none; 
 }
