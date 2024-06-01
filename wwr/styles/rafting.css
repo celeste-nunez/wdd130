@@ -228,13 +228,15 @@ footer p {
   grid-template-columns: 1fr 1fr 1fr;
   margin-top: 30px;
   margin-bottom: 20px;
+  justify-items: center;
+  align-items: center;
 }
 
 .booking h1 {
-  grid-column: 2;
-  position: relative;
+  grid-column: 1 / -1;
+  margin: 0;
   text-align: center;
-  display: flex;
+  padding: 20px;
 }
 
 .booking img {
@@ -268,6 +270,7 @@ footer p {
 }
 
 .trip2 {
+  flex-direction: column;
   grid-column: 2;
   display: flex;
   justify-content: center;
@@ -277,9 +280,10 @@ footer p {
 
 .trip2 p {
   position: absolute;
-  left: 0;
+  left: 50%;
   top: 10%;
   transform: translateY(-50%);
+  transform: translateX(-50%);
   text-align: center;
   color: black;
   width: 100%;
@@ -290,6 +294,7 @@ footer p {
 }
 
 .trip3 {
+  flex-direction: column;
   grid-column: 3;
   display: flex;
   justify-content: center;
@@ -299,9 +304,10 @@ footer p {
 
 .trip3 p {
   position: absolute;
-  left: 0;
+  left: 50%;
   top: 10%;
   transform: translateY(-50%);
+  transform: translateX(-50%);
   text-align: center;
   color: black;
   width: 100%;
